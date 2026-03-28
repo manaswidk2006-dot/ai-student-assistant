@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>AI Student Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>🤖 AI Student Assistant</h1>
+  <p>Your smart campus helper</p>
+</header>
+
+<div class="container">
+
+  <div class="box">
+    <h2>💬 Chatbot</h2>
+    <input type="text" id="userInput" placeholder="Ask something...">
+    <button onclick="chat()">Send</button>
+    <p id="response"></p>
+  </div>
+
+  <div class="box">
+    <h2>📄 Resume Analyzer</h2>
+    <textarea id="resume" placeholder="Paste your resume"></textarea>
+    <button onclick="analyze()">Analyze</button>
+    <p id="result"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
